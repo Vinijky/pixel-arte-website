@@ -105,7 +105,7 @@ header{
 }
 .services{
     width: 100%;
-    height: 290vh;
+    height: 285vh;
 }
 .services-title{
     white-space: nowrap;
@@ -128,7 +128,7 @@ header{
     padding-left: 3vh;
     list-style-type: none;
     display: flex;
-    color: #1418ff;
+    color: white;
     font-size: 1.2vh;
 }
 .text-tag-list{
@@ -149,7 +149,30 @@ header{
     margin-top: 10vh;
     padding-top: 44vh;
     padding-left: 3vh;
-    background-color: blue;
+}
+.etiquetas{
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 20%,rgba(0, 0, 0, 0.75) 50%), url("../images/etiquetas_image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.fachadas{
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 20%,rgba(0, 0, 0, 0.75) 50%), url("../images/fachada_image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.placas{
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 20%,rgba(0, 0, 0, 0.75) 50%), url("../images/placas_image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banners{
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 20%,rgba(0, 0, 0, 0.75) 50%), url("../images/banner_image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .services-card-title{
     color: white;
@@ -176,10 +199,8 @@ header{
 .gallery-card{
     width: 100%;
     height: 60vh;
-    padding: 1vh;
     display: flex;
     gap: 3vh;
-    margin-top: 1vh;
     position: relative;
     overflow: hidden;
 }
@@ -193,7 +214,7 @@ header{
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -15vh;
+    margin-top: -20vh;
     margin-left: -15vh;
     animation: gallery-cards-animation 9s infinite;
 }
@@ -249,6 +270,108 @@ header{
     color: #1418ff;
     font-size: 2vh;
 }
+.about-text{
+    white-space: nowrap;
+    color: white;
+    font-size: 1.41vh;
+    margin-left: 3vh;
+    margin-top: 3vh;
+    border-left: 0.1px solid white;
+    padding-left: 1vh;
+}
+.about-tag{
+    width: 100%;
+}
+.about-tag-list{
+    gap: 3vh;
+    padding-top: 3vh;
+    padding-left: 3vh;
+    list-style-type: none;
+    display: flex;
+    color: white;
+    font-size: 1.5vh;
+}
+.icon-tag-list2{
+    filter: brightness(0) saturate(100%) invert(11%) sepia(100%) saturate(7484%) hue-rotate(243deg) brightness(96%) contrast(106%);
+    width: 4vh;
+    height: auto;
+}
+iframe{
+    width: 100%;
+    height: 40vh;
+    margin-top: 10vh;
+}
+.about-icon-location{
+    filter: brightness(0) saturate(100%) invert(11%) sepia(100%) saturate(7484%) hue-rotate(243deg) brightness(96%) contrast(106%);
+    width: 3vh;
+    height: auto;
+}
+.about-location{
+    padding-top: 1vh;
+    padding-left: 3vh;
+    color: white;
+    font-size: 2vh;
+    display: inline-flex;
+}
+.contact{
+    border-top: 1px solid #1418ff;
+    border-bottom: 1px solid #1418ff;
+    width: 100%;
+    height: 80vh;
+    margin-top: 16vh;
+    text-align: center;
+}
+.contact-image{
+    width: 100%;
+    height: 40vh;
+}
+.contact-tag{
+    width: 100%;
+    text-align: initial;
+}
+.contact-tag-list{
+    line-height: 4vh;
+    padding-top: 3vh;
+    padding-left: 3vh;
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    font-size: 1.8vh;
+}
+.icon-tag-list3{
+    filter: brightness(0) saturate(100%) invert(11%) sepia(100%) saturate(7484%) hue-rotate(243deg) brightness(96%) contrast(106%);
+    width: 3vh;
+    height: auto;
+}
+.contact-text-tag-list{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.contact-bottom{
+    display: inline-flex;
+    align-items: center;
+    gap: 1vh;
+    padding-left: 5vh;
+    background-color: #1418ff;
+    border-radius: 16px;
+    font-size: 2vh;
+    margin-top: 6vh;
+    width: 30vh;
+    height: 5vh;
+    box-shadow: 0 1px 1px;
+}
+footer{
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    padding-top: 8vh;
+}
+.footer-copyright{
+    white-space: nowrap;
+    color: white;
+    font-size: 1.5vh;
+}
 
 @keyframes pageload{
     0% {
@@ -265,5 +388,5 @@ header{
     25% {transform: translateX(100%) scale(0.8); opacity: 0.85;}
     50% {transform: translateX(0%) scale(1.3); opacity: 1;}
     75% {transform: translateX(-100%) scale(0.55); opacity: 0;}
-    100% {transform: translateX(-230%) scale(0.8); opacity: 0.85;}
+    100% {transform: translateX(-0%) scale(0.8); opacity: 0.85;}
  }
