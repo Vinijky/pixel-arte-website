@@ -193,7 +193,7 @@ header{
     top: 70%;
     left: 50%;
     margin-top: -10vh;
-    margin-left: 3vh;
+    margin-left: 2vh;
     animation: gallery-cards-animation 9s infinite;
 }
 .gallery-image1{
