@@ -174,13 +174,14 @@ header{
     font-size: 2vh;
 }
 .gallery-card{
-    width: 20vh;
-    height: 23vh;
+    width: 60vh;
+    height: 60vh;
     padding: 1vh;
     display: flex;
     gap: 3vh;
     margin-top: 1vh;
     position: relative;
+    overflow: hidden;
 }
 .gallery-card-image{
     border: 1px solid #1418ff;
@@ -190,10 +191,10 @@ header{
     height: 30vh;
     flex: 1;
     position: absolute;
-    top: 70%;
+    top: 50%;
     left: 50%;
-    margin-top: -10vh;
-    margin-left: 2vh;
+    margin-top: -20vh;
+    margin-left: -18vh;
     animation: gallery-cards-animation 9s infinite;
 }
 .gallery-image1{
@@ -216,7 +217,6 @@ header{
     gap: 1vh;
     white-space: nowrap;
     display: inline-flex;
-    margin-top: 27vh;
     border: 0.5px solid;
     border-radius: 18px;
     color: white;
